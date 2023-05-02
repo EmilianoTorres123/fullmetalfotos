@@ -1,0 +1,71 @@
+:root{
+    --Degradado3:  rgb(239, 163, 32), rgb(220, 33, 33), rgb(37, 132, 239), rgb(244, 237, 35),rgba(171, 174, 160, 0.674);
+}
+
+  
+  .Mostrar_Titulo {
+    display: block;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .card {
+    height: 200px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    border: 5px solid ;
+    border-color: linear-gradient(to top, var(--Degradado3));
+    margin-bottom: 20px;
+    background-image: url("../../public/Imagenes/logo.png");
+    background-size: cover;
+  }
+  
+  .inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .inner button{
+    font-size: 30px;
+    color: rgb(223, 13, 13);
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    padding-right: 10rem;
+  }
+
+  .inner li::after{
+    color: rgb(226, 167, 18);
+  }
+  
+  .title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #ee0909;
+    text-shadow: 0px 2px 2px #ba181b;
+    position: relative;
+    margin: 0 0 20px 0;
+  }
+  
+  .subtitle {
+    color: #db0a64;
+    text-align: center;
+  }
+
+  .texto {
+    color: rgb(15, 224, 60);
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+  }
