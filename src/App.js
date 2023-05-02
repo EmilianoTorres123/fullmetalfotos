@@ -1,11 +1,11 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Routes, Route, Link } from "react-router-dom";
-import React, {Component, useState} from "react";
+import { Routes, Route } from "react-router-dom";
+import React, {Component} from "react";
 
 import AddFullmetal from "./components/add-fullmetal.components";
 import FullmetalList from "./components/fullmetal-list.components";
-import {Informacion, Imagen, Alumno}  from "./components/Inicio";
+import {Imagen, Alumno}  from "./components/Inicio";
 import Header from "./components/Header";
 
 
