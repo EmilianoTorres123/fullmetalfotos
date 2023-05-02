@@ -20,4 +20,4 @@ class FullmetalDataService {
 }
 
 const FullmetalDataServiceInstance = new FullmetalDataService();
-export default new FullmetalDataService();
+export default new FullmetalDataServiceInstance();
