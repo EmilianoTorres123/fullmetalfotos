@@ -19,5 +19,5 @@ class FullmetalDataService {
   }
 }
 
-const FullmetalDataServiceInstance = new FullmetalDataService();
-export default new FullmetalDataServiceInstance();
+const fullmetalDataServiceInstance= new FullmetalDataService();
+export default fullmetalDataServiceInstance
