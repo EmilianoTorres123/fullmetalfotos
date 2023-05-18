@@ -20,4 +20,5 @@ class KafkaService {
 
 }
 
-export default new KafkaService();
+const fullmetalDataServiceInstance= new KafkaService();
+export default fullmetalDataServiceInstance
