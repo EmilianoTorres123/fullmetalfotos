@@ -1,7 +1,7 @@
 import React, { Component} from "react";
 import FullmetalDataService from "../services/fullmetal.service";
 import "../styles/Mostrar.css";
-import LikeButton from "./Like";
+
 
 
 
@@ -91,7 +91,6 @@ export default class FullmetalList extends Component {
               );
             })}
 
-          <LikeButton/>
           <ul className="list-group"></ul>
         </div>
 
