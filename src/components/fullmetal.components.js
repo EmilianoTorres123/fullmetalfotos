@@ -1,6 +1,7 @@
 import React, { Component} from "react";
 import FullmetalDataService from "../services/fullmetal.service";
 import CommentsComponent from "./comentarios";
+import ReactionsComponent from "./Like";
 
 
 export default class Fullmetal extends Component {
@@ -200,6 +201,7 @@ export default class Fullmetal extends Component {
             </button>
             <p>{this.state.message}</p>
             <CommentsComponent/>
+            <ReactionsComponent/>
           </div>
         ) : (
           <div>
