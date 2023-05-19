@@ -22,7 +22,7 @@
     border: 5px solid ;
     border-color: linear-gradient(to top, var(--Degradado3));
     margin-bottom: 20px;
-    background-image: url("../../public/Imagenes/fondosss.png");
+    background-image: url("../../public/Imagenes/logo.png");
     background-size: cover;
   }
   
@@ -37,7 +37,7 @@
 
   .inner button{
     font-size: 30px;
-    color: rgb(78, 228, 128);
+    color: rgb(223, 13, 13);
     background-color: transparent;
     border: none;
     margin-right: 20px;
@@ -52,14 +52,14 @@
     font-size: 30px;
     text-align: center;
     font-weight: 700;
-    color: #04021e;
-    text-shadow: 0px 2px 2px #210202;
+    color: #ee0909;
+    text-shadow: 0px 2px 2px #ba181b;
     position: relative;
     margin: 0 0 20px 0;
   }
   
   .subtitle {
-    color: #e71b1b;
+    color: #db0a64;
     text-align: center;
   }
 
