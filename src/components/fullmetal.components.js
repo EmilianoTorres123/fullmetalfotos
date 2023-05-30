@@ -1,12 +1,13 @@
-import React, { Component} from "react";
+import React, { Component } from "react";
 import FullmetalDataService from "../services/fullmetal.service";
 import CommentsComponent from "./comentarios";
 import ReactionsComponent from "./Like";
 
 
+
 export default class Fullmetal extends Component {
 
-  
+
   constructor(props) {
     super(props);
     this.onChangeTitle = this.onChangeTitle.bind(this);
@@ -125,8 +126,9 @@ export default class Fullmetal extends Component {
       });
   }
 
-  render() {  
+  render() {
     const { currentTutorial } = this.state;
+    //const user = localStorage.getItem('user');
 
     return (
       <div>
@@ -157,7 +159,7 @@ export default class Fullmetal extends Component {
 
               <div className="form-group">
                 <label htmlFor="url"> Imagen: </label>
-                <img src= {currentTutorial.url} alt="hola" ></img>
+                <img src={currentTutorial.url} alt="hola" ></img>
               </div>
 
               <div className="form-group">
@@ -184,7 +186,7 @@ export default class Fullmetal extends Component {
               </button>
             )}
 
-            
+
             <button
               className="badge badge-danger mr-2"
               onClick={this.deleteTutorial}
@@ -200,9 +202,11 @@ export default class Fullmetal extends Component {
               Update
             </button>
             <p>{this.state.message}</p>
-            <CommentsComponent/>
-            <ReactionsComponent/>
+            <CommentsComponent />
+            <ReactionsComponent />
+
           </div>
+
         ) : (
           <div>
             <br />

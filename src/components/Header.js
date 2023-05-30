@@ -32,6 +32,12 @@ const Header = () => {
                   Agregar-foto
                 </Link>
               </li>
+              <li>
+                <Link to="/login" className="no-underline black" >
+                  login
+                </Link>
+              </li>
+              
             </ul>
           </nav>
         </div>
